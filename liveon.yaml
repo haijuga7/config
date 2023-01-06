@@ -1,277 +1,33 @@
 proxies:
-  - name: game
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 46102ae0-1e52-11ed-8de0-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: id-game.bypass.id
-    udp: true
-    
-  - name: id-biznet1.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 719a6d30-3b9c-11ed-89fc-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: id-biznet1.bypass.id
-    udp: true
-  - name: id-atha.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: c26d49d0-1e4a-11ed-a75a-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: id-atha.bypass.id
-    udp: true
-
-  - name: id-ctn.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 311eefa0-1e52-11ed-aa04-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: id-ctn.bypass.id
-    udp: true
-    
-  - name: id-ikd.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 523e6ef0-1e53-11ed-97eb-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: id-ikd.bypass.id
-    udp: true
-
-  - name: id-v2ray.bypass.id
+  - name: sg2-temp.v2-ray.com
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+    uuid: c89ca480-8d68-11ed-b533-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: beacon.liveon.id
+    servername: sg2-temp.v2-ray.com
     network: ws
     ws-opts:
-      path: ws://beacon.liveon.id/fastssh/pre_1562030662/bogoraya45/
+      path: /fastssh
       headers:
-        Host: id-v2ray.bypass.id
+        Host: sg2-temp.v2-ray.com
     udp: true
-    
-  - name: sg-melbi.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: afce46e0-1e53-11ed-ac6d-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: sg-melbi.bypass.id
-    udp: true
-
-  - name: sg-ovh.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: bef96130-1e53-11ed-83fd-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: sg-ovh.bypass.id
-    udp: true
-
-  - name: sg-trojan.serverip.xyz
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: d82cfb20-1e53-11ed-adf3-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: sg-trojan.serverip.xyz
-    udp: true
-
-  - name: sggs.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 2dad95f0-1e54-11ed-bf54-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: sggs.bypass.id
-    udp: true
-
-  - name: trojan-contabo1.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 3d9d8510-1e54-11ed-80f0-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: trojan-contabo1.bypass.id
-    udp: true
-
-  - name: trojan-contabo2.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 48b2ce10-1e54-11ed-bcf6-1577c1651679
-    skip-cert-verify: true
-    sni: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/howdy
-      headers:
-        Host: trojan-contabo2.bypass.id
-    udp: true
-    
-  - name: sg-v2ray-ws.bypass.id
+  - name: sg1-temp.v2-ray.com
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+    uuid: 13a0c380-8d69-11ed-b033-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: beacon.liveon.id
+    servername: sg1-temp.v2-ray.com
     network: ws
     ws-opts:
-      path: ws://beacon.liveon.id/fastssh/pre_1562030662/bogoraya45/
+      path: /fastssh
       headers:
-        Host: sg-v2ray-ws.bypass.id
+        Host: sg1-temp.v2-ray.com
     udp: true
-
-  - name: v2ray-contabo.bypass.id
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: beacon.liveon.id
-    network: ws
-    ws-opts:
-      path: ws://beacon.liveon.id/fastssh/pre_1562030662/bogoraya45/
-      headers:
-        Host: v2ray-contabo.bypass.id
-    udp: true
-    
-proxy-groups:
-  - name: LYCORIS
-    type: select
-    proxies:
-      - FB OK
-      - BP OK
-      - LB ID OK
-      - LB SG OK
-      - game
-      - DIRECT
-  - name: FB OK
-    type: select
-    proxies:
-      - id-biznet1.bypass.id
-      - id-atha.bypass.id
-      - id-ctn.bypass.id
-      - id-ikd.bypass.id
-      - id-v2ray.bypass.id
-      - sg-melbi.bypass.id
-      - sg-ovh.bypass.id
-      - sg-trojan.serverip.xyz
-      - sggs.bypass.id
-      - trojan-contabo1.bypass.id
-      - trojan-contabo2.bypass.id
-      - sg-v2ray-ws.bypass.id
-      - v2ray-contabo.bypass.id
-    url: http://hi.bonds.id/ping
-    interval: 300
-  - name: BP OK
-    type: url-test
-    proxies:
-      - id-biznet1.bypass.id
-      - id-atha.bypass.id
-      - id-ctn.bypass.id
-      - id-ikd.bypass.id
-      - id-v2ray.bypass.id
-      - sg-melbi.bypass.id
-      - sg-ovh.bypass.id
-      - sg-trojan.serverip.xyz
-      - sggs.bypass.id
-      - trojan-contabo1.bypass.id
-      - trojan-contabo2.bypass.id
-      - sg-v2ray-ws.bypass.id
-      - v2ray-contabo.bypass.id
-    url: http://hi.bonds.id/ping
-    interval: 300
-    tolerance: 50
-  - name: LB ID OK
-    type: load-balance
-    proxies:
-      - id-biznet1.bypass.id
-      - id-atha.bypass.id
-      - id-ctn.bypass.id
-      - id-ikd.bypass.id
-      - id-v2ray.bypass.id
-    url: http://hi.bonds.id/ping
-    interval: 300
-  - name: LB SG OK
-    type: load-balance
-    proxies:
-      - sg-melbi.bypass.id
-      - sg-ovh.bypass.id
-      - sg-trojan.serverip.xyz
-      - sggs.bypass.id
-      - trojan-contabo1.bypass.id
-      - trojan-contabo2.bypass.id
-      - sg-v2ray-ws.bypass.id
-      - v2ray-contabo.bypass.id
-    url: http://hi.bonds.id/ping
-    interval: 300
-rules:
-  - MATCH,LYCORIS
