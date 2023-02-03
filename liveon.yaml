@@ -1,33 +1,145 @@
 proxies:
-  - name: sg2-temp.v2-ray.com
+  - name: Melbi 3
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: c89ca480-8d68-11ed-b533-205c6d5f5d78
+    uuid: 57ceb820-a311-11ed-b239-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2-temp.v2-ray.com
+    servername: sg-9.0rd.net
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /518ryel4
       headers:
-        Host: sg2-temp.v2-ray.com
+        Host: sg-9.0rd.net
     udp: true
-  - name: sg1-temp.v2-ray.com
+  - name: Melbi
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 13a0c380-8d69-11ed-b033-205c6d5f5d78
+    uuid: c6494b70-a311-11ed-b332-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1-temp.v2-ray.com
+    servername: sg-4.0rd.net
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /vg15hjup
       headers:
-        Host: sg1-temp.v2-ray.com
+        Host: sg-4.0rd.net
+    udp: true
+  - name: Melbi 2
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: c02d0860-a34d-11ed-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-8.0rd.net
+    network: ws
+    ws-opts:
+      path: /0vcr83i9
+      headers:
+        Host: sg-8.0rd.net
+    udp: true
+  - name: OVH 3
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 079dcd00-a34e-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-10.0rd.net
+    network: ws
+    ws-opts:
+      path: /or2u1it4
+      headers:
+        Host: sg-10.0rd.net
+    udp: true
+  - name: OVH-2
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 407d7a10-a34e-11ed-b431-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-5.0rd.net
+    network: ws
+    ws-opts:
+      path: /linusj3x
+      headers:
+        Host: sg-5.0rd.net
+    udp: true
+  - name: Contabo
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 6fbd6ed0-a34e-11ed-b030-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-3.0rd.net
+    network: ws
+    ws-opts:
+      path: /n54jyfua
+      headers:
+        Host: sg-3.0rd.net
+    udp: true
+  - name: OVH-1
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: abf054d0-a34e-11ed-b132-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-2.0rd.net
+    network: ws
+    ws-opts:
+      path: /y7r4ds6t
+      headers:
+        Host: sg-2.0rd.net
+    udp: true
+  - name: Singapore HE-1
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 292488b0-a34f-11ed-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /rsyb8dw9
+      headers:
+        Host: sg-1.0rd.net
+    udp: true
+  - name: Indonesia Herza
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 788ba720-a34f-11ed-b532-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /j2gwdzms
+      headers:
+        Host: id-1.0rd.net
     udp: true
