@@ -1,145 +1,45 @@
 proxies:
-  - name: Melbi 3
+  - name: SG Trojan-WS(2023-02-17)
     server: 104.21.8.121
     port: 443
-    type: vmess
-    uuid: 57ceb820-a311-11ed-b239-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: edd8b090-a8d7-11ed-8b24-1239d0255272
     skip-cert-verify: true
-    servername: sg-9.0rd.net
+    sni: sg2.socifiles.com
     network: ws
     ws-opts:
-      path: /518ryel4
+      path: /trojanws
       headers:
-        Host: sg-9.0rd.net
+        Host: sg2.socifiles.com
     udp: true
-  - name: Melbi
+  - name: SG+VMESS-WS(2023-02-17)
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: c6494b70-a311-11ed-b332-205c6d5f5d78
+    uuid: 398ebd80-a8d8-11ed-8e2b-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-4.0rd.net
+    servername: sg2.socifiles.com
     network: ws
     ws-opts:
-      path: /vg15hjup
+      path: /vmws
       headers:
-        Host: sg-4.0rd.net
+        Host: sg2.socifiles.com
     udp: true
-  - name: Melbi 2
+  - name: SG Vless-WS(2023-02-17)
     server: 104.21.8.121
     port: 443
-    type: vmess
-    uuid: c02d0860-a34d-11ed-b032-205c6d5f5d78
-    alterId: 0
+    type: vless
+    uuid: 8c6d0050-a8d8-11ed-9aad-1239d0255272
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-8.0rd.net
+    servername: sg2.socifiles.com
     network: ws
     ws-opts:
-      path: /0vcr83i9
+      path: /vlws
       headers:
-        Host: sg-8.0rd.net
-    udp: true
-  - name: OVH 3
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 079dcd00-a34e-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-10.0rd.net
-    network: ws
-    ws-opts:
-      path: /or2u1it4
-      headers:
-        Host: sg-10.0rd.net
-    udp: true
-  - name: OVH-2
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 407d7a10-a34e-11ed-b431-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-5.0rd.net
-    network: ws
-    ws-opts:
-      path: /linusj3x
-      headers:
-        Host: sg-5.0rd.net
-    udp: true
-  - name: Contabo
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 6fbd6ed0-a34e-11ed-b030-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-3.0rd.net
-    network: ws
-    ws-opts:
-      path: /n54jyfua
-      headers:
-        Host: sg-3.0rd.net
-    udp: true
-  - name: OVH-1
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: abf054d0-a34e-11ed-b132-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-2.0rd.net
-    network: ws
-    ws-opts:
-      path: /y7r4ds6t
-      headers:
-        Host: sg-2.0rd.net
-    udp: true
-  - name: Singapore HE-1
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 292488b0-a34f-11ed-b032-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /rsyb8dw9
-      headers:
-        Host: sg-1.0rd.net
-    udp: true
-  - name: Indonesia Herza
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 788ba720-a34f-11ed-b532-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /j2gwdzms
-      headers:
-        Host: id-1.0rd.net
+        Host: sg2.socifiles.com
     udp: true
