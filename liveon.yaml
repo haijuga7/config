@@ -1,4 +1,20 @@
 proxies:
+  - name: trial3820230214061216
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: c2f697eb-eb7e-4dca-adc6-823b1cc64864
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id8.fastvpn.biz.id
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id8.fastvpn.biz.id
+    udp: true
   - name: Indonesia Herza
     server: 104.21.8.121
     port: 443
