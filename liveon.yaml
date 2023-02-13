@@ -1,6 +1,6 @@
 proxies:
   - name: SG+VMESS-WS(2023-02-20)
-    server: ""
+    server: "104.21.8.121"
     port: 443
     type: vmess
     uuid: 9c2d0da0-ab5e-11ed-bbdb-1239d0255272
@@ -16,7 +16,7 @@ proxies:
         Host: sg1.socifiles.com
     udp: true
   - name: SG+VMESS-WS(2023-02-20) 2
-    server: ""
+    server: "104.21.8.121"
     port: 443
     type: vmess
     uuid: bcd29590-ab5e-11ed-b0f0-1239d0255272
