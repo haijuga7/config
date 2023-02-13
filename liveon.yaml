@@ -1,33 +1,193 @@
 proxies:
-  - name: SG+VMESS-WS(2023-02-20)
-    server: "104.21.8.121"
+  - name: Indonesia Herza
+    server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 9c2d0da0-ab5e-11ed-bbdb-1239d0255272
+    uuid: 44196bd0-ab62-11ed-b539-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1.socifiles.com
+    servername: id-1.0rd.net
     network: ws
     ws-opts:
-      path: /vmws
+      path: /nb2jif1m
       headers:
-        Host: sg1.socifiles.com
+        Host: id-1.0rd.net
     udp: true
-  - name: SG+VMESS-WS(2023-02-20) 2
-    server: "104.21.8.121"
+  - name: Indonesia IKD
+    server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: bcd29590-ab5e-11ed-b0f0-1239d0255272
+    uuid: 0cefafa0-ab62-11ed-b631-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2.socifiles.com
+    servername: id-2.0rd.net
     network: ws
     ws-opts:
-      path: /vmws
+      path: /2qr1vjad
       headers:
-        Host: sg2.socifiles.com
+        Host: id-2.0rd.net
+    udp: true
+  - name: Singapore AMP-1
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 04cea780-ab61-11ed-b832-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-6.0rd.net
+    network: ws
+    ws-opts:
+      path: /asfol980
+      headers:
+        Host: sg-6.0rd.net
+    udp: true
+  - name: Singapore AMP-2
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: d8af03f0-ab60-11ed-b930-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-7.0rd.net
+    network: ws
+    ws-opts:
+      path: /oixc39nt
+      headers:
+        Host: sg-7.0rd.net
+    udp: true
+  - name: Singapore Contabo
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: cbd2c3e0-ab61-11ed-b539-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-3.0rd.net
+    network: ws
+    ws-opts:
+      path: /9ptowz0a
+      headers:
+        Host: sg-3.0rd.net
+    udp: true
+  - name: Singapore HE-1
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 977e3a20-ab62-11ed-b833-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /bzoj8rq0
+      headers:
+        Host: sg-1.0rd.net
+    udp: true
+  - name: Singapore Melbi
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 92738d00-ab61-11ed-b730-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-4.0rd.net
+    network: ws
+    ws-opts:
+      path: /s1mkzwco
+      headers:
+        Host: sg-4.0rd.net
+    udp: true
+  - name: Singapore Melbi 2
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 39a6d700-ab61-11ed-b138-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-8.0rd.net
+    network: ws
+    ws-opts:
+      path: /jlyf1x0o
+      headers:
+        Host: sg-8.0rd.net
+    udp: true
+  - name: Singapore Melbi 3
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 6ad4e060-ab61-11ed-b131-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-9.0rd.net
+    network: ws
+    ws-opts:
+      path: /351yf0ve
+      headers:
+        Host: sg-9.0rd.net
+    udp: true
+  - name: Singapore OVH-1
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 27f07370-ab62-11ed-b139-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-2.0rd.net
+    network: ws
+    ws-opts:
+      path: /nxaqjwip
+      headers:
+        Host: sg-2.0rd.net
+    udp: true
+  - name: Singapore OVH-2
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: eb72f120-ab61-11ed-b137-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-5.0rd.net
+    network: ws
+    ws-opts:
+      path: /n03uj5bh
+      headers:
+        Host: sg-5.0rd.net
+    udp: true
+  - name: Singapore OVH 3
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 737da2a0-ab60-11ed-b236-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-10.0rd.net
+    network: ws
+    ws-opts:
+      path: /lc5jgamb
+      headers:
+        Host: sg-10.0rd.net
     udp: true
