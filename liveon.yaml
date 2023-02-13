@@ -1,22 +1,25 @@
 proxies:
-  - name: SG Trojan-WS(2023-02-17)
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: edd8b090-a8d7-11ed-8b24-1239d0255272
-    skip-cert-verify: true
-    sni: sg2.socifiles.com
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: sg2.socifiles.com
-    udp: true
-  - name: SG+VMESS-WS(2023-02-17)
-    server: 104.21.8.121
+  - name: SG+VMESS-WS(2023-02-20)
+    server: ""
     port: 443
     type: vmess
-    uuid: 398ebd80-a8d8-11ed-8e2b-1239d0255272
+    uuid: 9c2d0da0-ab5e-11ed-bbdb-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg1.socifiles.com
+    udp: true
+  - name: SG+VMESS-WS(2023-02-20) 2
+    server: ""
+    port: 443
+    type: vmess
+    uuid: bcd29590-ab5e-11ed-b0f0-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -25,21 +28,6 @@ proxies:
     network: ws
     ws-opts:
       path: /vmws
-      headers:
-        Host: sg2.socifiles.com
-    udp: true
-  - name: SG Vless-WS(2023-02-17)
-    server: 104.21.8.121
-    port: 443
-    type: vless
-    uuid: 8c6d0050-a8d8-11ed-9aad-1239d0255272
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vlws
       headers:
         Host: sg2.socifiles.com
     udp: true
