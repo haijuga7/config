@@ -1,19 +1,35 @@
 proxies:
-  - name: trial3820230214061216
+  - name: id biznet
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: c2f697eb-eb7e-4dca-adc6-823b1cc64864
+    uuid: 2439b709-f35d-4bc4-b855-b1129d5895da
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id8.fastvpn.biz.id
+    servername: idbiznet.fssh-store.me
     network: ws
     ws-opts: 
       path: /vmess
       headers: 
-        Host: id8.fastvpn.biz.id
+        Host: idbiznet.fssh-store.me
+    udp: true
+  - name: id rajasa
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: e5f7b9e0-88ce-46a1-a2da-b69574190c85
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-rajasa.rajs-vpn.xyz
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id-rajasa.rajs-vpn.xyz
     udp: true
   - name: Indonesia Herza
     server: 104.21.8.121
