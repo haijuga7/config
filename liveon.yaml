@@ -1,19 +1,19 @@
 proxies:
-  - name: aleeta
+  - name: aleeta0
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 3315e24a-209f-4a2c-8cbb-3c74b95b7251
+    uuid: 6e4c4629-bd97-47af-bb1e-d871eb51ad99
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idbiznet.fssh-store.me
+    servername: sglinode.fssh-store.me
     network: ws
     ws-opts: 
       path: /vmess
       headers: 
-        Host: idbiznet.fssh-store.me
+        Host: sglinode.fssh-store.me
     udp: true
   - name: sg3-v2ray.sshkit.org
     server: 104.21.8.121
@@ -30,36 +30,4 @@ proxies:
       path: /sshkit/5628512927/63eca680e46bc/
       headers:
         Host: sg3-v2ray.sshkit.org
-    udp: true
-  - name: sg-lb.vhax.net
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.vhax.net
-    network: ws
-    ws-opts:
-      path: /sshkit/Ardi1/63eca6bb40c24/
-      headers:
-        Host: sg-lb.vhax.net
-    udp: true
-  - name: id-lb.vhax.net
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.vhax.net
-    network: ws
-    ws-opts: 
-      path: /sshkit/Ardi12/63eca6f1e2aae/
-      headers: 
-        Host: id-lb.vhax.net
     udp: true
