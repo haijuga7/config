@@ -1,33 +1,81 @@
 proxies:
-  - name: aleeta0
+  - name: R443:Vmess Singapore HE-1 2023-04-05
     server: 104.21.8.121
     port: 443
     type: vmess
-    uuid: 6e4c4629-bd97-47af-bb1e-d871eb51ad99
-    alterId: 0
+    uuid: dcca0760-cdeb-11ed-b637-205c6d5f5d78
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: sglinode.fssh-store.me
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sglinode.fssh-store.me
     udp: true
-  - name: sg3-v2ray.sshkit.org
-    server: 104.21.8.121
-    port: 443
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
     skip-cert-verify: true
-    servername: sg3-v2ray.sshkit.org
     network: ws
+    servername: sg-1.0rd.net
+    alterId: 0
     ws-opts:
-      path: /sshkit/5628512927/63eca680e46bc/
+      path: /w6y0diza
       headers:
-        Host: sg3-v2ray.sshkit.org
+        Host: sg-1.0rd.net
+  - name: R443:Vmess Indonesia Herza Limit 2023-04-01
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: f19bd670-cdeb-11ed-b432-205c6d5f5d78
+    cipher: auto
+    tls: true
     udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id-1.0rd.net
+    alterId: 0
+    ws-opts:
+      path: /blwv4hmq
+      headers:
+        Host: id-1.0rd.net
+  - name: R443:Vmess Singapore Melbi 3 2023-04-05
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: c9da4c60-cdec-11ed-b337-205c6d5f5d78
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-9.0rd.net
+    alterId: 0
+    ws-opts:
+      path: /q7s4vry0
+      headers:
+        Host: sg-9.0rd.net
+  - name: R443:Vmess Singapore Melbi 2 2023-04-05
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 014d37d0-cded-11ed-b734-205c6d5f5d78
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-8.0rd.net
+    alterId: 0
+    ws-opts:
+      path: /0jsmi5lb
+      headers:
+        Host: sg-8.0rd.net
+  - name: R443:Vmess Singapore OVH-2 2023-04-05
+    server: 104.21.8.121
+    port: 443
+    type: vmess
+    uuid: 445e4ce0-cded-11ed-b236-205c6d5f5d78
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-5.0rd.net
+    alterId: 0
+    ws-opts:
+      path: /ljiu80q2
+      headers:
+        Host: sg-5.0rd.net
