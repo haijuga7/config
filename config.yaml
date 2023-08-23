@@ -1,0 +1,141 @@
+redir-port: 9797
+tproxy-port: 9898
+mode: rule
+allow-lan: true
+bind-address: '*'
+log-level: silent
+ipv6: false
+geodata-mode: true
+geodata-loader: memconservative
+external-controller: 127.0.0.1:9090 
+# secret: "123456"
+external-ui: /data/adb/box/clash/dashboard
+tcp-concurrent: true
+unified-delay: true
+# global-client-fingerprint: chrome
+# interface-name: ""
+# routing-mark: 233
+geox-url:
+  mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  geoip: "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geoip.dat"
+  geosite: "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.dat"
+
+find-process-mode: off
+
+profile:
+  store-selected: true
+  store-fake-ip: false
+
+sniffer:
+  enable: false
+  override-destination: false
+  sniff: # TLS ??????? ports ???? 443
+    TLS:
+      ports: [443, 8443]
+    HTTP: # ???????, ???? 80
+      ports: [80, 8080-8880]
+      override-destination: true # ??? sniffer.override-destination
+
+tun:
+  enable: true
+  device: utun
+  mtu: 9000
+  stack: system # gvisor / lwip / system
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-detect-interface: true
+  inet4-address: 172.19.0.1/30
+  inet6-address: [fdfe:dcba:9876::1/126]
+  # include_android_user:
+    # - 0
+    # - 10
+  # include_package:
+  # - com.android.chrome
+  # exclude_package:
+    # - com.whatsapp
+
+dns:
+  enable: true
+  ipv6: false
+  prefer-h3: true
+  default-nameserver:
+    # - 114.114.114.114
+    - 8.8.8.8
+    # cloudflare
+    - 1.1.1.1
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+  nameserver:
+    # google
+    - 8.8.8.8
+    - 1.0.0.1
+
+proxies:
+proxy-groups:
+  - name: internet
+    type: select
+    proxies:
+      - SELECT
+      - URL-TEST
+      
+  - name: URL-TEST
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    use:
+      - premium
+    interval: 300
+    
+  - name: SELECT
+    type: select
+    use:
+      - premium
+  
+  - name: ADS
+    type: select
+    proxies:
+      - REJECT
+      - internet
+
+proxy-providers:
+  premium:
+    type: file
+    path: ./provide/aku.yaml
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 36000
+      
+
+rule-providers:
+  ads:
+    type: file
+    behavior: domain
+    path: ./ruleset/test.yaml
+  block:
+    type: file
+    behavior: domain
+    path: ./ruleset/block.yaml
+    
+rules:
+  - DOMAIN-SUFFIX,dit.whatsapp.net,REJECT
+  - GEOSITE,category-ads-all,ADS
+  # - GEOSITE,oisd-nsfw,REJECT
+  - AND,((NETWORK,udp),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+  - AND,((GEOIP,doh),(NOT,((DST-PORT,53)))),REJECT
+  # - GEOSITE,oisd-full,REJECT
+  # - GEOSITE,rule-ads,REJECT
+  - DOMAIN-SUFFIX,googlesyndication.com,internet
+  - DOMAIN-SUFFIX,adtival.network,internet
+  - RULE-SET,ads,REJECT
+  - IN-TYPE,inner,internet
+  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  - MATCH,internet
