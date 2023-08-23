@@ -79,38 +79,30 @@ dns:
 proxies:
 proxy-groups:
   - name: internet
-    type: select
-    proxies:
-      - SELECT
-      - URL-TEST
-      
-  - name: URL-TEST
     type: url-test
     url: https://cp.cloudflare.com/generate_204
     use:
       - premium
+      - utama
     interval: 300
-    
-  - name: SELECT
-    type: select
-    use:
-      - premium
-  
-  - name: ADS
-    type: select
-    proxies:
-      - REJECT
-      - internet
 
 proxy-providers:
   premium:
-    type: file
+    type: http
+    url: https://raw.githubusercontent.com/haijuga7/config/main/clash/Akun.yaml
     path: ./provide/aku.yaml
     health-check:
       enable: true
       url: https://cp.cloudflare.com/generate_204
       interval: 36000
-      
+  utama:
+    type: http
+    url: https://raw.githubusercontent.com/haijuga7/config/main/clash/utama.yaml
+    path: ./provide/aku.yaml
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 36000
 
 rule-providers:
   ads:
@@ -124,7 +116,7 @@ rule-providers:
     
 rules:
   - DOMAIN-SUFFIX,dit.whatsapp.net,REJECT
-  - GEOSITE,category-ads-all,ADS
+  - GEOSITE,category-ads-all,REJECT
   # - GEOSITE,oisd-nsfw,REJECT
   - AND,((NETWORK,udp),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
   - AND,((GEOIP,doh),(NOT,((DST-PORT,53)))),REJECT
