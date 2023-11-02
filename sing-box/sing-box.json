@@ -81,7 +81,7 @@
       "domain_strategy": "prefer_ipv4",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "password": "80cb82270bcf7553",
+      "password": "cbb365d22c053656",
       "tls": {
         "enabled": true,
         "server_name": "jala.iptunnels.com",
