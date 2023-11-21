@@ -1,0 +1,224 @@
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "Cpanel [Vl-Ws]",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "f6685676-f9ee-4c73-9202-06d172f7a398",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cpanel.iptunnels.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/buy-vless-ws-pm-telegram-at-synricha",
+        "headers": {
+          "Host": "cpanel.iptunnels.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Jala [Vl-Ws]",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "d65c7f7c-c13c-4ae9-955d-2e81cef30813",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jala.iptunnels.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/buy-vless-ws-pm-telegram-at-synricha",
+        "headers": {
+          "Host": "jala.iptunnels.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Jala [Vl-Grcp]",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9c066d53-ab60-4b3d-8ae4-8f1f39b65c28",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jala.iptunnels.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "buy-vless-grpc-pm-telegram-at-synricha",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "Jala [Vm-Grcp]",
+      "type": "vmess",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "ecd62490-9aab-4a81-915b-b858b4d0b639",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": true,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "jala.iptunnels.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "buy-vmess-grpc-pm-telegram-at-synricha",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Jala [T-Grcp]",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "password": "50c6f3e0d24472dc",
+      "tls": {
+        "enabled": true,
+        "server_name": "jala.iptunnels.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "buy-trojan-grpc-pm-telegram-at-synricha",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan1.udpgw.com",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "password": "413d1b10-8814-11ee-b065-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan1.udpgw.com",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/howdy",
+        "headers": {
+          "Host": "trojan1.udpgw.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    }
+  ]
+}
