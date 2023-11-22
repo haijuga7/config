@@ -10,7 +10,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "f6685676-f9ee-4c73-9202-06d172f7a398",
+      "uuid": "3ae26337-edd1-40ae-90bc-215d69e47734",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -48,7 +48,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "d65c7f7c-c13c-4ae9-955d-2e81cef30813",
+      "uuid": "8ded14db-c348-406f-822e-3e1bfcfc1ba0",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -122,7 +122,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "ecd62490-9aab-4a81-915b-b858b4d0b639",
+      "uuid": "676acf1d-8f33-4928-9d50-17b2ae206c93",
       "security": "auto",
       "alter_id": 0,
       "global_padding": true,
@@ -183,42 +183,5 @@
         "ping_timeout": "15s",
         "permit_without_stream": false
       }
-    },
-    {
-      "type": "trojan",
-      "tag": "trojan1.udpgw.com",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "password": "413d1b10-8814-11ee-b065-1239d0255272",
-      "tls": {
-        "enabled": true,
-        "server_name": "trojan1.udpgw.com",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/howdy",
-        "headers": {
-          "Host": "trojan1.udpgw.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
     }
   ]
-}
