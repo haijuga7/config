@@ -2,311 +2,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇩 Incapsula",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx4.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx4.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 Evoxt Enterprise",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx5.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx5.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 Telkom Malaysia",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx6.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx6.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Google Cloud",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx7.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx7.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Akari Network",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx8.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx8.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Huawei International",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx9.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx9.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 OVH",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx10.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx10.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Digital Ocean",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx11.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx11.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Neustar Security Service",
+      "tag": "🇸🇬·SG-CX12-NeustarSecurityService-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -344,7 +40,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 M247",
+      "tag": "🇮🇩·ID-CX40-ZhejiangTaobaoNetwork-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -356,7 +52,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx13.ntr.biz.id",
+        "server_name": "cx40.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -373,7 +69,7 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx13.ntr.biz.id"
+          "Host": "cx40.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -382,7 +78,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Kaopu Cloud",
+      "tag": "🇸🇬·SG-CX11-DigitalOcean-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -394,7 +90,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx14.ntr.biz.id",
+        "server_name": "cx11.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -411,7 +107,7 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx14.ntr.biz.id"
+          "Host": "cx11.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -420,7 +116,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 kuroit Limited",
+      "tag": "🇲🇾·MY-CX6-TelekomMalaysia-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -432,7 +128,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx15.ntr.biz.id",
+        "server_name": "cx6.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -449,7 +145,7 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx15.ntr.biz.id"
+          "Host": "cx6.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -458,7 +154,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Akari Network",
+      "tag": "🇸🇬·SG-CX59-GoogleCloudPlatform-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -470,7 +166,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx16.ntr.biz.id",
+        "server_name": "cx59.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -487,7 +183,7 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx16.ntr.biz.id"
+          "Host": "cx59.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -496,197 +192,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 AOFEI Data International",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx17.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx17.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 First Server",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx18.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx18.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Hostinger International 1",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx19.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx19.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 HostHatch 1",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx20.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx20.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 HostHatch 2",
-      "tcp_fast_open": true,
-      "tcp_multi_path": true,
-      "udp_fragment": true,
-      "domain_strategy": "prefer_ipv4",
-      "connect_timeout": "3s",
-      "server": "beacon.liveon.id",
-      "server_port": 443,
-      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cx21.ntr.biz.id",
-        "insecure": true,
-        "disable_sni": false,
-        "alpn": [
-          "http/2",
-          "http/1.1"
-        ]
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "h2mux",
-        "max_streams": 32
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "cx21.ntr.biz.id"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Amazon",
+      "tag": "🇸🇬·SG-CX22-Amazon-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -724,7 +230,539 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Akile 1",
+      "tag": "🇸🇬·SG-CX20-HostHatch-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx20.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx20.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX42-Linode-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx42.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx42.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇲·US-CX45-AkamaiTechnologies-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx45.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx45.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇲·US-CX48-QuadraNetEnterprise-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx48.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx48.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪·AE-CX34-InnovativeTelecomSystems-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx34.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx34.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇩·ID-CX3-Zenlayer-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx3.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx3.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX19-HostingerInternational-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx19.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx19.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX18-FirstServer-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx18.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx18.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰·HK-CX9-HuaweiInternational-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx9.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx9.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧·GB-CX57-BritishTelecommunications-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx57.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx57.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX16-AkariNetwork-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx16.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx16.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX60-Vultr-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx60.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx60.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX13-M247-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx13.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx13.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇴·NO-CX36-WebHorizon-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx36.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx36.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX23-Akile-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -762,7 +800,83 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Akile 2",
+      "tag": "🇹🇼·TW-CX39-Akile-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx39.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx39.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇴·RO-CX33-Zergrush-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx33.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx33.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX24-Akile-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -800,7 +914,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 DataCamp",
+      "tag": "🇬🇧·GB-CX53-AHCloud-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -812,7 +926,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx25.ntr.biz.id",
+        "server_name": "cx53.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -829,7 +943,7 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx25.ntr.biz.id"
+          "Host": "cx53.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -838,7 +952,425 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Vultr",
+      "tag": "🇩🇰·DK-CX31-M247-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx31.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx31.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX27-WebHorizon-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx27.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx27.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇲·US-CX50-NetLabGlobal-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx50.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx50.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧·GB-CX55-HostarisLimited-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx55.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx55.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇷·AR-CX29-DattatecCorp-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx29.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx29.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇲·US-CX47-TencentCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx47.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx47.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX14-KaopuCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx14.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx14.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾·MY-CX5-EvoxtEnterprise-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx5.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx5.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX43-OracleCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx43.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx43.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇪·BE-CX32-GlobalInternetSolutions-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx32.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx32.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇩·ID-CX2-Zenlayer-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx2.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx2.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX26-Vultr-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -876,7 +1408,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 WebHorizon",
+      "tag": "🇺🇲·US-CX46-KryptTechnologies-P443",
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -888,7 +1420,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cx27.ntr.biz.id",
+        "server_name": "cx46.ntr.biz.id",
         "insecure": true,
         "disable_sni": false,
         "alpn": [
@@ -905,7 +1437,843 @@
         "type": "ws",
         "path": "/?ed=2048",
         "headers": {
-          "Host": "cx27.ntr.biz.id"
+          "Host": "cx46.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵·JP-CX8-AkariNetwork-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx8.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx8.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX51-AmazonWebServices-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx51.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx51.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧·GB-CX58-Kamatera-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx58.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx58.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX17-AOFEIDataInternational-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx17.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx17.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇩·ID-CX4-Incapsula-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx4.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx4.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX15-KuroitLimited-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx15.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx15.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧·GB-CX54-LogicForgeLimited-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx54.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx54.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX52-TencentCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx52.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx52.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵·JP-CX7-GoogleCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx7.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx7.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧·GB-CX56-Hostgnome-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx56.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx56.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇲·US-CX49-IT7Network-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx49.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx49.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇿·NZ-CX30-TwoDegreesMobile-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx30.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx30.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇼·KW-CX28-WarbaBank-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx28.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx28.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX41-GCoreLabs-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx41.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx41.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX38-GoogleCloud-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx38.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx38.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇩·ID-CX1-Zenlayer-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx1.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx1.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷·KR-CX37-SKBroadband-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx37.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx37.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX10-OVH-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx10.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx10.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX21-HostHatch-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx21.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx21.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰·HK-CX44-Zenlayer-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx44.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx44.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬·SG-CX25-DataCamp-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx25.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx25.ntr.biz.id"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇺·LU-CX35-FranTechSolutions-P443",
+      "tcp_fast_open": true,
+      "tcp_multi_path": true,
+      "udp_fragment": true,
+      "domain_strategy": "prefer_ipv4",
+      "connect_timeout": "3s",
+      "server": "beacon.liveon.id",
+      "server_port": 443,
+      "uuid": "9132908c-57bf-4858-8845-e9aa385b6e16",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cx35.ntr.biz.id",
+        "insecure": true,
+        "disable_sni": false,
+        "alpn": [
+          "http/2",
+          "http/1.1"
+        ]
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cx35.ntr.biz.id"
         },
         "max_early_data": 0,
         "early_data_header_name": "Sec-WebSocket-Protocol"
