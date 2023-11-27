@@ -10,7 +10,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "3ae26337-edd1-40ae-90bc-215d69e47734",
+      "uuid": "a184c82e-4f32-4ed5-887e-1c3f036297d9",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -48,7 +48,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "8ded14db-c348-406f-822e-3e1bfcfc1ba0",
+      "uuid": "3c9124db-754a-4898-9986-787008f234b9",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -86,7 +86,7 @@
       "connect_timeout": "3s",
       "server": "beacon.liveon.id",
       "server_port": 443,
-      "uuid": "9c066d53-ab60-4b3d-8ae4-8f1f39b65c28",
+      "uuid": "d96f4850-a4d1-420b-9826-936a83f2bd0f",
       "flow": "",
       "tls": {
         "enabled": true,
